@@ -28,10 +28,7 @@
 // }
 
 function anagrams(stringA, stringB) {
-  if (cleanWords(stringA) === cleanWords(stringB)) {
-    return true;
-  }
-  return false;
+  return cleanWords(stringA) === cleanWords(stringB);
 }
 
 function cleanWords(str) {
