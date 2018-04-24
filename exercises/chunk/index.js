@@ -18,6 +18,18 @@ function chunk(array, size) {
 }
 
 // function chunk(array, size) {
+//   let chunkedArray = [];
+//   let index = 0
+//
+//   while (array.length) {
+//     chunkedArray.push(array.slice(index, index + size));
+//     index += size
+//   }
+
+//   return chunkedArray;
+// }
+
+// function chunk(array, size) {
 //   let chunked = [];
 //
 //   for (let element of array) {
