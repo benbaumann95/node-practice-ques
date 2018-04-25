@@ -34,7 +34,7 @@ function steps(n, row = 0, stair = '') {
   }
   steps(n, row, stair);
 }
-
+//
 // function steps(n) {
 //   for (let row = 0; row < n; row++) {
 //     let stair = '';
