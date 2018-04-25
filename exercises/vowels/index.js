@@ -20,8 +20,8 @@ function vowels(str) {
 }
 
 // function vowels(str) {
-//   const m = str.match(/[aeiou]/gi);
-//   return m === null ? 0 : m.length;
+//   const matches = str.match(/[aeiou]/gi);
+//   return matches ? m.length : 0;
 // }
 
 // function vowels(str) {
