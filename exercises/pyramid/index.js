@@ -32,4 +32,24 @@ function pyramid(n) {
   }
 }
 
+// function pyramid(n, row = 0, stair = '') {
+//   const midPoint = Math.floor((2 * n - 1) / 2);
+//   if (n === row) {
+//     return;
+//   }
+//
+//   if (n * 2 - 1 === stair.length) {
+//     console.log(stair);
+//     return pyramid(n, row + 1);
+//   }
+//
+//   if (midPoint - row <= stair.length && midPoint + row >= stair.length) {
+//         stair += '#';
+//   } else {
+//         stair += ' ';
+//   }
+//
+//   pyramid(n, row, stair);
+// }
+
 module.exports = pyramid;
